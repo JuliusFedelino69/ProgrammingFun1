@@ -9,7 +9,6 @@ void setup() {
 void change_line_color() {
   stroke(255, 0, 0);
   line(x, 100, x, 200);
-  // now we decide if to use black or white
   if(random(100) > 50) {
     stroke(0);
   } else {
@@ -18,10 +17,8 @@ void change_line_color() {
 }
 
 void draw() {
-  // draw black or white line
   line(x, 100, x, 200);
 
-  // sometimes we decide to change the line color
   if(random(100) > 90) {
     change_line_color();    
   }
