@@ -7,7 +7,7 @@ void setup() {
 }
 
 void change_line_color() {
-  stroke(255, 0, 0);
+  stroke(255, 3, 3);
   line(x, 100, x, 200);
   if(random(100) > 50) {
     stroke(0);
